@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magar Community Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Magar Heritage</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#culture">Culture</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Jhorle! (Greetings)</h1>
+      <p>Welcome to the Magar Community Portfolio — Celebrating rich heritage, tradition, and identity.</p>
+      <a href="#about" class="btn">Explore Culture</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Magar Community</h2>
+    <p>
+      The Magar people are one of the largest indigenous ethnic groups of Nepal, with a rich history rooted in the western hills. Known for their bravery, rich folklore, traditional music, and vibrant agricultural lifestyle, Magars have contributed significantly to Nepal's diverse identity.
+    </p>
+  </section>
+
+  <!-- Culture Section -->
+  <section id="culture" class="section bg-light">
+    <h2>Culture & Traditions</h2>
+    <div class="grid-container">
+
+      <!-- Card 1: Maghe Sankranti -->
+      <div class="card">
+        <div class="card-img-container">
+          <img 
+            src="Maghe-Sankranti.jpg" 
+            alt="Maghe Sankranti Festival" 
+            class="card-img"
+          />
+        </div>
+        <div class="card-content">
+          <h3>Maghe Sankranti</h3>
+          
+          <p>The biggest festival of the Magar community, celebrated with traditional foods like Sel Roti, Tarul (yam), and cultural gatherings.</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Music & Dance -->
+      <div class="card">
+        <div class="card-img-container">
+          <img 
+            src="kauda.jpg" 
+            alt="Traditional Music and Madal" 
+            class="card-img"
+          />
+        </div>
+        <div class="card-content">
+          <h3>Kauda & Salaijo</h3>
+          <p>Kauda and Salaijo play an essential role in preserving the oral history, language, and social values of the Magar and Gurung communities.</p>
+          
+        </div>
+      </div>
+
+      <!-- Card 3: Traditional Attire -->
+      <div class="card">
+        <div class="card-img-container">
+          <img 
+            src="dress.webp" 
+            alt="Traditional Attire and Jewelry" 
+            class="card-img"
+          />
+        </div>
+        <div class="card-content">
+          <h3>Traditional Dress</h3>
+          <p>Men wear Bhangra and Kachhad, while women dress in colorful Gunyou Cholo, Mujetro, and traditional gold jewelry.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="section">
+    <h2>Connect With Us</h2>
+    <p>Get in touch to learn more or join community events.</p>
+    
+    <form class="contact-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Magar Community Portfolio. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
